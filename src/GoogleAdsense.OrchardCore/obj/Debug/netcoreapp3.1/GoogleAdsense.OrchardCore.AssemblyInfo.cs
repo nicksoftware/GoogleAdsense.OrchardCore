@@ -12,10 +12,13 @@ using System;
 using System.Reflection;
 
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("GoogleAdsense.OrchardCore", "Module")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\GoogleAdsenseSettings.Edit.cshtml|c:\\Users\\" +
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\GoogleAdsenseSettings.Edit.cshtml|C:\\Users\\" +
     "nicol\\source\\repos\\GoogleAdsense\\src\\GoogleAdsense.OrchardCore\\Views\\GoogleAdsen" +
     "seSettings.Edit.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\_ViewImports.cshtml|c:\\Users\\nicol\\source\\r" +
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\NavigationItemText-adsense.Id.cshtml|C:\\Use" +
+    "rs\\nicol\\source\\repos\\GoogleAdsense\\src\\GoogleAdsense.OrchardCore\\Views\\Navigati" +
+    "onItemText-adsense.Id.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\_ViewImports.cshtml|C:\\Users\\nicol\\source\\r" +
     "epos\\GoogleAdsense\\src\\GoogleAdsense.OrchardCore\\Views\\_ViewImports.cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nicolas Maluleke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

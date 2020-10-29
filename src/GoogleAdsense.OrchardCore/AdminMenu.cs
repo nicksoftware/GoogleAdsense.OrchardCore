@@ -23,7 +23,7 @@ namespace GoogleAdsense.OrchardCore
             builder.Add(loc["Configuration"], config => config
             .Add(loc["Settings"], settings => settings
                 .Add(loc["Google Adsense"], loc["Google Adsense"].PrefixPosition(), set => set
-                .AddClass("googleAdsense").Id("googleAdsense")
+                .AddClass("adsense").Id("adsense")
                   .Action("Index", "Admin", new { area = "OrchardCore.Settings", groupId = Constants.GroupId })
                   .LocalNav()
                 )));
