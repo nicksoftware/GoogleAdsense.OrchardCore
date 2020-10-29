@@ -1,0 +1,19 @@
+﻿@using GoogleAdsense.OrchardCore.ViewModels
+
+@model GoogleAdsenseSettingsViewModel
+
+
+<h3>@T["Google adsense Script"]</h3>
+
+<div class="form-group">
+    <label>@T["Google Ad Client Id"]</label>
+    <input type="text"  asp-for="GoogleAdClient" class="form-control"/>
+    <span asp-validation-for="GoogleAdClient"></span>
+    <span class="hint">@T["Id starting with ca-pub-xxxxxxxxx "]</span>
+</div>
+<div class="form-group">
+    <label>@T["Script Url"]</label>
+    <input  type="text" asp-for="ScriptUrl" class="form-control"/>
+    <span asp-validation-for="ScriptUrl"></span>
+    <span class="hint">@T[" Default is  https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]</span>
+</div>

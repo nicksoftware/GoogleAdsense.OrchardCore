@@ -11,10 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("GoogleAdsense.OrchardCore")]
+[assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("GoogleAdsense.OrchardCore", "Module")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\GoogleAdsenseSettings.Edit.cshtml|c:\\Users\\" +
+    "nicol\\source\\repos\\GoogleAdsense\\src\\GoogleAdsense.OrchardCore\\Views\\GoogleAdsen" +
+    "seSettings.Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\GoogleAdsense.OrchardCore\\Views\\_ViewImports.cshtml|c:\\Users\\nicol\\source\\r" +
+    "epos\\GoogleAdsense\\src\\GoogleAdsense.OrchardCore\\Views\\_ViewImports.cshtml")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Nicolas Maluleke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-rc2-13450")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoogleAdsense.OrchardCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoogleAdsense.OrchardCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

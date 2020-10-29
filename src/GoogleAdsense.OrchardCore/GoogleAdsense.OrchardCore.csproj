@@ -1,8 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  <Title>GoogleAdsense.OrchardCore</Title>
+    <Description></Description>
+    <Authors>Nicolas Maluleke</Authors>
+    <Company>Nicolas Maluleke</Company>
+    <Language>C#</Language>
+    <Summary>GoogleAdsense module for Orchard Core</Summary>
+    <PackageProjectUrl>https://github.com/hnicolus/GoogleAdsense</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/hnicolus/GoogleAdsense</RepositoryUrl>
+    <PackageTags>GoogleAdsense, Orchard Core, Module, OrchardCore</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>Restream.OrchardCore</RepositoryType>
+    <Version>1.0.0-rc2-13450</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,10 +25,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="OrchardCore.Admin" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-13450" />
+
+    <PackageReference Include="OrchardCore.Navigation" Version="1.0.0-rc2-13450" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc2-13450" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Constants\" />
   </ItemGroup>
 
 </Project>

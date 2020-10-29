@@ -1,10 +1,10 @@
 using OrchardCore.Modules.Manifest;
 
 [assembly: Module(
-    Name = "GoogleAdsense.OrchardCore",
-    Author = "The Orchard Core Team",
-    Website = "https://orchardcore.net",
+    Name = "Google Adsense ",
+    Author = "Nicolas Maluleke",
+    Website = "https://nicksoftware.co.za",
     Version = "0.0.1",
-    Description = "GoogleAdsense.OrchardCore",
-    Category = "Content Management"
+    Description = "Integrate Google Adsense",
+    Category = "Google"
 )]
