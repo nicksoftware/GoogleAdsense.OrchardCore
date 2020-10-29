@@ -4,20 +4,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
   <Title>GoogleAdsense.OrchardCore</Title>
-    <Description></Description>
+    <Description>Module for Orchard Core that allows you to integrate Google Adsense to your website.</Description>
     <Authors>Nicolas Maluleke</Authors>
     <Company>Nicolas Maluleke</Company>
     <Language>C#</Language>
     <Summary>GoogleAdsense module for Orchard Core</Summary>
-    <PackageProjectUrl>https://github.com/hnicolus/GoogleAdsense</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/hnicolus/GoogleAdsense.OrchardCore</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <RepositoryUrl>https://github.com/hnicolus/GoogleAdsense</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hnicolus/GoogleAdsense.OrchardCore</RepositoryUrl>
     <PackageTags>GoogleAdsense, Orchard Core, Module, OrchardCore</PackageTags>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>Add the nuget package reference GoogleAdsense.OrchardCore
+Launch your Orchard Core application, login as admin, then go to the Features admin page and enable the GoogleAdsense module Launch your Orchard Core application.
+Go to Configuration > Settings > GoogleAdsense and Add your google ad client key</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryType>Restream.OrchardCore</RepositoryType>
-    <Version>1.0.0-rc2-13450</Version>
+    <RepositoryType>GoogleAdsense.OrchardCore</RepositoryType>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

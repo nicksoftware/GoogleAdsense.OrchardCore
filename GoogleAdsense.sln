@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B39CF6E-559
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleAdsense.OrchardCore", "src\GoogleAdsense.OrchardCore\GoogleAdsense.OrchardCore.csproj", "{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Webhost", "src\SampleApp.Webhost\SampleApp.Webhost.csproj", "{8CD7D54B-50AF-467D-87BD-366B134C91B9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,25 +29,12 @@ Global
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}.Release|x64.Build.0 = Release|Any CPU
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}.Release|x86.ActiveCfg = Release|Any CPU
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}.Release|x86.Build.0 = Release|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Debug|x64.Build.0 = Debug|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Debug|x86.Build.0 = Debug|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Release|x64.ActiveCfg = Release|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Release|x64.Build.0 = Release|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Release|x86.ActiveCfg = Release|Any CPU
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1} = {6B39CF6E-5593-443C-9ECF-B7EA72A70F78}
-		{8CD7D54B-50AF-467D-87BD-366B134C91B9} = {6B39CF6E-5593-443C-9ECF-B7EA72A70F78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E6F260A-B7B5-42F3-91E8-832CDEC7B5FA}
