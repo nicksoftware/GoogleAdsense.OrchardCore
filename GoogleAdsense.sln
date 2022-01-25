@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B39CF6E-559
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleAdsense.OrchardCore", "src\GoogleAdsense.OrchardCore\GoogleAdsense.OrchardCore.csproj", "{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{41383006-5EDB-4479-824D-40B7254CC24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "src\sample\DemoWeb\DemoWeb.csproj", "{4877E44B-C403-4542-BEDB-32FA5792916E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +33,26 @@ Global
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}.Release|x64.Build.0 = Release|Any CPU
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}.Release|x86.ActiveCfg = Release|Any CPU
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1}.Release|x86.Build.0 = Release|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Debug|x64.Build.0 = Debug|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Debug|x86.Build.0 = Debug|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Release|x64.ActiveCfg = Release|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Release|x64.Build.0 = Release|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Release|x86.ActiveCfg = Release|Any CPU
+		{4877E44B-C403-4542-BEDB-32FA5792916E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{263989CD-4FC2-4F9B-9AD2-AE17CB4F1EB1} = {6B39CF6E-5593-443C-9ECF-B7EA72A70F78}
+		{41383006-5EDB-4479-824D-40B7254CC24F} = {6B39CF6E-5593-443C-9ECF-B7EA72A70F78}
+		{4877E44B-C403-4542-BEDB-32FA5792916E} = {41383006-5EDB-4479-824D-40B7254CC24F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E6F260A-B7B5-42F3-91E8-832CDEC7B5FA}
